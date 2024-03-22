@@ -1,8 +1,6 @@
 import { useState } from "preact/hooks";
 import { FunctionalComponent } from "preact";
-import { Palabras } from "../types.tsx"
 import axios from "npm:axios"
-import { FreshContext, Handlers, PageProps } from "$fresh/server.ts";
 
 /*
 export const handler: Handlers = {
